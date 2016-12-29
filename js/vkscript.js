@@ -1,0 +1,1 @@
+VK.Widgets.CommunityMessages("vk_community_messages", 120320256, {tooltipButtonText: "Есть вопрос?"});
