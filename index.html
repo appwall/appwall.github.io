@@ -16,6 +16,17 @@
 <link href="css/styles.css" rel="stylesheet">
 <link href="css/jquery.bxslider.css" rel="stylesheet">
 <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=O6VNQwjAPFHzPMCl8khE7vHxGNaWOQ3IY2rIpzkuRquG*7Tr0ZmrdK8xzMJtI5zzyxvvf4RZobBWmRLDzWAqsi6XBgnzzbKElScx6rURUxWNr8SJn1eoiWhnfYocYLxEReIsNHzcRnG*ZOtMWDWxea7UO8eMATUk/KqraQ/rEuc-&pixel_id=1000061904';</script>
+<script type="text/javascript">
+            var ref = window.location.search;
+            function refferal() {
+                if (ref.indexOf("ref")) {
+                    window.location.href = "http://appwall.affise.com/"+ref;
+                }
+                else {
+                    window.location.href = "http://appwall.affise.com/signup";
+                }
+            }           
+        </script>
 </head>
 <body>
 <div id="page-wrapper">
@@ -29,7 +40,7 @@
       <div class="buttons">
         <a href="http://appwall.affise.com/signin" class="btn-generic btn-login login-modal-button">
           Вход        </a>
-        <a onclick="_gaq.push(['_trackEvent','buttontop','click','top','0']);return true;" href="http://appwall.affise.com/signup" class="btn-generic btn-registration register-modal-button">
+        <a onclick="_gaq.push(['_trackEvent','buttontop','click','top','0']);return true;refferal()" href="#" class="btn-generic btn-registration register-modal-button">
           Регистрация          </a>
       </div>
     </div>
