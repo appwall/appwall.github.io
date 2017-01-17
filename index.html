@@ -28,8 +28,15 @@
             var ref = window.location.search;
             var _gaq = _gaq || [];
             function refferaltop() {
-                if (ref.indexOf("ref")) { _gaq.push(['_trackEvent','buttontop','click','top','0']); window.location.href = "http://appwall.affise.com/"+ref;}
-                else { _gaq.push(['_trackEvent','buttontop','click','top','0']);window.location.href = "http://appwall.affise.com/signup";}} 
+                if (ref.indexOf("ref")) { 
+                    _gaq.push(['_trackEvent','buttontop','click','top','0']); 
+                    window.location.href = "http://appwall.affise.com/"+ref;
+                }
+                else { 
+                    _gaq.push(['_trackEvent','buttontop','click','top','0']);
+                    window.location.href = "http://appwall.affise.com/signup";
+                }
+            } 
         
         </script>
 </head>
