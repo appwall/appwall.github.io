@@ -18,13 +18,13 @@
     var md = new MobileDetect(window.navigator.userAgent);
     if (md.phone()) {
         if (md.iOS()) {
-            //window.location.href = "http://apple.com";
-            document.write("iPhone");
+            window.location.href = "http://apple.com";
+            //document.write("iPhone");
 
         }
         if (md.AndroidOS()) {
-            //window.location.href = "http://google.com";
-            document.write("Android");
+            window.location.href = "http://google.com";
+            //document.write("Android");
 
         }
     } else {
