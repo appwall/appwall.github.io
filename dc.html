@@ -17,12 +17,12 @@
 <script type="text/javascript">
     var md = new MobileDetect(window.navigator.userAgent);
     if (md.phone()) {
-        if (md.iOS()) {
+        if (md.os()=='iOS') {
             window.location.href = "http://apple.com";
             //document.write("iPhone");
 
         }
-        if (md.AndroidOS()) {
+        if (md.os()=='AndroidOS') {
             window.location.href = "http://google.com";
             //document.write("Android");
 
