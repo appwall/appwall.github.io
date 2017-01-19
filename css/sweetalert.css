@@ -22,7 +22,6 @@ body.stop-scrolling {
   width: 478px;
   padding: 17px;
   border-radius: 5px;
-  text-align: center;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -50,9 +49,9 @@ body.stop-scrolling {
     line-height: 40px;
     display: block; }
   .sweet-alert p {
-    color: #797979;
-    font-size: 16px;
-    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-align: left;
     font-weight: 300;
     position: relative;
     text-align: inherit;
