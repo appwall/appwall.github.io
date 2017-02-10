@@ -14,6 +14,8 @@
     <meta name="description" content="Рекламируйте приложения и зарабатывайте на каждой установке"/>
 
 <link href="css/styles.css" rel="stylesheet">
+<link href="css/radio2.css" rel="stylesheet">
+
 <link href="css/jquery.bxslider.css" rel="stylesheet">
 <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=O6VNQwjAPFHzPMCl8khE7vHxGNaWOQ3IY2rIpzkuRquG*7Tr0ZmrdK8xzMJtI5zzyxvvf4RZobBWmRLDzWAqsi6XBgnzzbKElScx6rURUxWNr8SJn1eoiWhnfYocYLxEReIsNHzcRnG*ZOtMWDWxea7UO8eMATUk/KqraQ/rEuc-&pixel_id=1000061904';</script>
 <script>
@@ -39,6 +41,7 @@
             } 
         
         </script>
+       
 </head>
 <body>
 <div id="page-wrapper">
@@ -141,12 +144,33 @@
       <div class="col-3"><p style="font-size:25px;margin:10px"><img src="assets/moneybox.png" width="150"></p></div>
           <div class="col-8"><p style="font-size:20px;margin:10px; text-align:left;line-height:1.2;">Таким образом получаем, что с <span style="color:#4fc3f7;">10.000 просмотров</span> - 5.000 с мобильных устройств, 2% от 5.000 - 100 установок по 96 рублей = <span style="color:#4fc3f7;">9.600 рублей</span>. И при качественной интеграции это число может вырасти в разы</p></div>    
       </div>
-      
+
 </div>
       </div>
     </div>
   </section>
-  
+  <!--
+  <section>
+      <div class="row countries-block">
+               <div class="sources col-12">
+                               <div class="col-3">
+            <div class="vik"><input type="radio" id="viking" value="96" name="game" onchange="calc()" checked><label for="viking"></label></div>
+            <div class="taxi"><input type="radio" id="taxi" value="40" name="game" onchange="calc()"><label for="taxi"></label></div>
+        <div class="vik"><input type="radio" id="wot" value="80" name="game" onchange="calc()"><label for="wot"></label></div>
+        <div class="vik"><input type="radio" id="throne" value="80" name="game" onchange="calc()"><label for="throne"></label></div>
+        <div class="vik"><input type="radio" id="wow" value="80" name="game" onchange="calc()"><label for="wow"></label></div>
+        <div class="vik"><input type="radio" id="thunder" value="80" name="game" onchange="calc()"><label for="thunder"></label></div>
+
+        Количество просмотров:
+        <input type="number" id="views" onchange="calc()" value="10000"><br>
+        Сумма: 
+        <span class="income" id="income">9600</span>
+                      </div>
+                      
+          </div>        
+      </div>         
+  </section>
+  -->
  
   
   
@@ -156,7 +180,7 @@
         
 
 <div class="countries col-12">
-    <h2>Наши космические предложения</h2><br><br><p>Вы получаете деньги каждый раз,<br>когда ваш зритель совершит действие</p><br><br>
+    <h2>Наши космические предложения</h2><br><br><p>Вы получаете деньги каждый раз,<br>когда ваш зритель совершает действие</p><br><br>
   <div id="countries-slider">
     
              
@@ -187,7 +211,7 @@
       </div>              
                     
       
-          </div> <br><br><p style="font-size:22px;">А так же десятки других предложений ждут вас в личном кабинете</p>
+          </div> <br><br><p style="font-size:24px;">А так же десятки других предложений ждут вас в личном кабинете</p>
       
 </div>
        
@@ -206,7 +230,7 @@
   <div class="align-center">
       <a onclick="refferaltop()" href="#"><button type="submit" class="btn-generic btn-reg">Зарегистрироваться</button></a>  </div>
 
-          <br><br><br><p> Получайте дополнительный доход от <a href="faq.html#ref"><span>реферальной программы</span></a><br><br>Приводите ваших коллег и получайте 5% от их дохода </p>
+          <br><br><br><p> Остались вопросы?<br><br>Пишите нам partners@appwall.ru и <i class="fa fa-skype" aria-hidden="true"></i> appwall</p>
       </div>
     </div>
   </section>
@@ -217,17 +241,35 @@
      
      
       <div class="footer-top">
-        <div class="contacts">
-            <a href="faq.html"><span>Ответы на ваши вопросы</span></a>
-            <a href="http://appwall.ru/blog/rec.html"><span>Рекомендации</span></a>
-            <a href="faq.html#ref"><span>Реферальная программа</span></a>
+         <div class="grid grid-pad">
+            <div class="col-1-3">
+               <div class="content">
+                  <p style="margin:10px; font-size: 22px;">Блог</p><br>
+                   <p style="margin:10px;"><a href="http://appwall.ru/blog/moobot.html" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px; ">Реклама в чате с помощью moobot</a></p>
+                  <p style="margin:10px;"><a href="http://appwall.ru/blog/rec.html" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px;"><span>Рекомендации</span></a></p>
 
+               </div>
+            </div>
+            <div class="col-1-3">
+               <div class="content">
+                  <p style="margin:10px; font-size: 22px;">Полезное</p><br>
+                   <p style="margin:10px;"><a href="faq.html" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px;"><span>Ответы на вопросы</span></a></p>
+                   <p style="margin:10px;"><a href="faq.html#ref" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px;"><span>Реферальная программа</span></a></p>
+                   
+               </div>
+            </div>
+             <div class="col-1-3">
+               <div class="content">
+                  <p style="margin:10px; font-size: 22px;">Контакты</p><br>
+                   <p style="margin:10px;" ><a href="#" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px;"><span><i class="fa fa-skype" aria-hidden="true"></i> appwall</span></a></p>
+                   <p style="margin:10px;" ><a href="#" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px;"><span><i class="fa fa-envelope" aria-hidden="true"></i> partners@appwall.ru</span></a></p>
+                  <p style="margin:10px;" ><a href="http://vk.com/appwall" style="color:#4fc3f7; font-family: 'PT Sans'; font-size:18px;" target="_blank"><span><i class="fa fa-vk" aria-hidden="true"></i> appwall</span></a></p>
 
-          <a href="blog/index.html" target="_blank"><span>Блог</span></a>
-                    <a href="#"><span>Skype: appwall</span></a>
-                    <a href="#"><span>partners@appwall.ru</span></a>
+               </div>
+            </div>
                    
         </div>
+           
             </div>
       <div class="footer-bottom">
         <div class="logo">
@@ -244,7 +286,25 @@
   
   
 </div>
+  <!--
+   <script type="text/javascript">
+            function calc() {
+                var views = document.getElementById("views").value;
+                if (document.getElementById("viking").checked) {price = 96;}
+                if (document.getElementById("taxi").checked) {price = 65;}
+                if (document.getElementById("wot").checked) {price = 65;}
+                if (document.getElementById("throne").checked) {price = 88;}
+                if (document.getElementById("warface").checked) {price = 40;}
+                if (document.getElementById("thunder").checked) {price = 80;}
 
+                var income = price * views * 0.01;
+                document.getElementById("income").innerHTML = income;
+                }
+           
+        </script>
+        -->
+<link href="css/simplegrid.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/63adbfa468.js"></script>
 <div id="vk_community_messages"></div>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
@@ -263,21 +323,7 @@
                
             }                
 </script>
-<!-- Rating@Mail.ru counter -->
-<script type="text/javascript">
-var _tmr = window._tmr || (window._tmr = []);
-_tmr.push({id: "2849991", type: "pageView", start: (new Date()).getTime()});
-(function (d, w, id) {
-  if (d.getElementById(id)) return;
-  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-})(document, window, "topmailru-code");
-</script><noscript><div style="position:absolute;left:-10000px;">
-<img src="//top-fwz1.mail.ru/counter?id=2849991;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
-</div></noscript>
-<!-- //Rating@Mail.ru counter -->
+
 
 </body>
 </html>
