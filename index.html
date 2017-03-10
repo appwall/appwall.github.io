@@ -41,7 +41,60 @@
             } 
         
         </script>
-       
+        
+       <style>
+
+
+.centered-text {
+  text-align: left;
+}
+
+.quote {
+  background: #fff;
+  padding: 15px 20px 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+    border-color: #fff;
+}
+.quote:after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 18px 0 18px;
+  border-color: #ebf3f5 transparent transparent transparent;
+  position: relative;
+  top: 37px;
+  left: 20px;
+}
+
+.student {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+.student p {
+  position: relative;
+  top: 5px;
+  text-transform: uppercase;
+}
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.student p:nth-child(3) {
+  font-size: 14px;
+  color: #777;
+}  
+</style> 
 </head>
 <body>
 <div id="page-wrapper">
@@ -64,8 +117,9 @@
   <section class="content why-us">
     <div class="wrapper">
       
-<h2>Увеличиваем доходы<br>блогеров и стримеров</h2><br><br>
-      <div class="align-center">
+<h2>Увеличиваем доходы<br>блогеров и стримеров</h2>
+      <div class="align-center">     <p style="font-size:25px;">С нами вы заработаете больше своего стандартного прайса</p><br><br>
+
         <a onclick="refferaltop()" href="#" class="btn-generic btn-registration btn-check">
           Проверь сам        </a>
       </div>
@@ -171,8 +225,9 @@
       </div>         
   </section>
   -->
+
  
-  
+ 
   
   <section class="content details">
     <div class="wrapper">
@@ -219,6 +274,60 @@
     </div>    
   </section> 
 
+<!--
+<section class="content rate">
+    <div class="wrapper">
+     <p style="font-size:30px; text-align:center;">Нам доверяют сотни каналов с охватом боле 10 млн. подписчиков</p>
+      <div class="sources col-12">
+  <div class="row"><br><br>
+      <div class="col-6"><p style="font-size:25px;margin:10px;text-align:center">Bazya</p></div>
+      <div class="col-6"><p style="font-size:20px;margin:10px; text-align:left;line-height:1.2;">Для примера возьмем игру Vikings.<br>Выплата на iOS - <span style="color:#4fc3f7;">120 рублей</span>, Android - <span style="color:#4fc3f7;">90 рублей</span></p></div>    
+      </div>
+
+</div>
+    </div>
+  </section>
+-->
+
+    <section class="content details">
+
+    <div class="wrapper">
+             	<h2>Нам доверяют сотни каналов с охватом аудитории более 10 млн.</h2>
+
+      <div class="row countries-block">
+
+   <div class="testimonial-wrap">
+
+	<div class="row">
+	<div class="col-6">
+		<div class="large-6 columns testimonial">
+			<div class="quote">
+				<p style="color:#000;">Являюсь партнером appwall относительно недавно и за такой короткий срок понял, что это надолго, так как меня поразило все - от простоты сервиса до невероятно быстрой тех. поддержки, которая отвечает на все вопросы.</p>
+			</div>
+			<div class="student">
+                <p ><a href="https://www.youtube.com/channel/UC6WDTBP_usFvtbHfT4Ogf5Q" target="_blank" style="color:#4fc3f7;">Bazya</a></p>
+				<p>Владелец youtube канала с 250,000+ подписчиками</p>
+			</div>
+		</div>
+        </div>
+        	<div class="col-6">
+		<div class="large-6 columns testimonial">
+			<div class="quote">
+				<p style="color:#000;">Вы молодцы! С вами очень комфортно работать! Ни разу не пожалел о своем выборе. Выплаты получаю точно в срок, а иногда даже раньше.</p>
+			</div>
+			<div class="student">
+                <p ><a href="https://www.youtube.com/channel/UCOltm_B6qik9032B8h4bbQg" target="_blank" style="color:#4fc3f7;">ZUM</a></p>
+				<p>Владелец youtube канала с 30,000+ подписчиками</p>
+			</div>
+		</div>
+        </div>
+		
+	</div>
+	</div>
+        </div>
+        </div>
+    </section>
+
   <section class="content rate">
     <div class="wrapper">
       <h2>
@@ -230,7 +339,7 @@
   <div class="align-center">
       <a onclick="refferaltop()" href="#"><button type="submit" class="btn-generic btn-reg">Зарегистрироваться</button></a>  </div>
 
-          <br><br><br><p> Остались вопросы?<br><br>Напишите нам в <i class="fa fa-skype" aria-hidden="true"></i> appwall<br><br>и получите ответ в течение 15 минут</p>
+          <br><br><br><p> Остались вопросы?<br><br>Напишите нам в <i class="fa fa-skype" aria-hidden="true"></i> appwall и получите ответ в течение 15 минут</p>
       </div>
     </div>
   </section>
@@ -280,7 +389,6 @@
             
             <p><a href="privacy" style="color:#fff; opacity:0.2">Политика конфиденциальности</a></p><br>
             <p><a href="agreement" style="color:#fff; opacity:0.2">Пользовательское соглашение</a></p><br>
-            <p style="opacity:0">ООО "Гекко", 109428, Москва г, пр-кт.Рязанский, д.10, стр.2, пом.6, ОГРН 1137746292166</p><br>
             
             <p align="center" style="color:#fff;">&copy; 2017 appwall.ru </p>
         </div>
@@ -311,6 +419,7 @@
 <script src="https://use.fontawesome.com/63adbfa468.js"></script>
 <div id="vk_community_messages"></div>
 <script src="js/jquery.js"></script>
+
 <script src="js/jquery.bxslider.min.js"></script>
 <script src="js/jquery.inview.min.js"></script>
 <script src="js/scripts.js"></script>
